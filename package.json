@@ -1,0 +1,25 @@
+{
+  "name": "blog_express",
+  "version": "1.0.0",
+  "description": "This is a blog we created during CODEWITHHARRY express course",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fineanmol/express_blog.git"
+  },
+  "author": "Anmol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fineanmol/express_blog/issues"
+  },
+  "homepage": "https://github.com/fineanmol/express_blog#readme"
+}
