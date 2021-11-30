@@ -8,11 +8,11 @@ const port = 3000;
 // next()
 // }
 
-//Public Folder
-app.use(express.static(path.join(__dirname,"public")))
+//Public Static Folder
+app.use(express.static(path.join(__dirname,"static")))
 //app.use(anmolMiddleWare)
 
-app.use('/',require('routes/blog'))
+app.use('/',require(path.join(__dirname,'routes/blog.js')))
 
 
 
