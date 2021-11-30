@@ -21,7 +21,7 @@ router.get("/blogpost/:slug", (req, res) => {
     e.slug === req.params.slug;
   });
   console.log(myBlog);
-  res.sendFile(path.join(__dirname, "../templates/blogpage.html"));
+  res.sendFile(path.join(__dirname, "../templates/blogPage.html"));
 });
 
 module.exports = router;
